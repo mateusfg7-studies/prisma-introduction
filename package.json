@@ -2,5 +2,11 @@
   "name": "prisma-example",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "prisma": "^3.8.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^3.8.0"
+  }
 }
