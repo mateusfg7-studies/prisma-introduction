@@ -14,4 +14,13 @@ model User {
   id    String  @id
   name  String
   email String?
+
+  groups Group[]
+}
+
+model Group {
+  id    String @id
+  title String
+
+  members User[]
 }
