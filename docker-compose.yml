@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  postgres:
+    image: postgres:latest
+    container_name: prisma-example_postgres
+    environment:
+      - POSTGRES_USER=prismauser
+      - POSTGRES_PASSWORD=prismapass
+      - POSTGRES_DB=prismaexample
+    ports:
+      - "5432:5432"
